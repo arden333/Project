@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .center{text-align: center; }
+        *{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
+    <br>
+    <br>
+    <div class="center">
+        <h3>이탈예정 유저는 {{ total }}명 중 {{ churn }}명({{ rate }}%)입니다.</h3>
+        <br>
+        <iframe width="1350" height="1000" src="https://datastudio.google.com/embed/reporting/1d8d4f0f-16e4-44b6-8e06-a9a4fb7c2ea5/page/dbi6C" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!-- <a href = "https://datastudio.google.com/u/0/reporting/1d8d4f0f-16e4-44b6-8e06-a9a4fb7c2ea5/page/dbi6C" align="center">인사이트 확인하기</a> -->
+    </div>
+    
+</body>
+</html>
